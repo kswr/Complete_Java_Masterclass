@@ -62,7 +62,35 @@ public class Main {
         // && short circuit and operator
 
         int secondTopScore = 60;
-        if(topScore > secondTopScore && topScore < 100)
+        if((topScore > secondTopScore) && (topScore < 100)) // remember to put brackets around pairs of conditions to evade problems with operators precedence
             System.out.println("Greater than second top score and less than 100");
+
+        // || or
+
+        if((topScore > 90) || (secondTopScore <= 90))
+            System.out.println("One of these tests is true");
+
+        int newValue = 50;
+        if (newValue == 50)
+            System.out.println("This is true");
+
+        boolean isCar = false;
+        if (isCar) // remember not to mistake assignment operator for equality operator and don't compare boolean value
+            System.out.println("It's a car");
+
+        boolean wasCar = isCar ? true : false;
+        if(wasCar)
+            System.out.println("wasCar is true");
+
+        // CHALLENGE
+
+        double myDouble = 20;
+        double mySecondDouble = 80;
+        double equation = (myDouble + mySecondDouble) * 25;
+        double total = equation % 40;
+        System.out.println("Total is " + total);
+        if (total <= 20)
+            System.out.println("Total was over the limit");
+
     }
 }
