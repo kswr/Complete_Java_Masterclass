@@ -19,5 +19,16 @@ public class Main {
         System.out.println(myString);
         myString = myString + " \u00A9 2015";
         System.out.println(myString);
+
+        String numberString = "40.55";
+        String secondNumberString = "90.55";
+        String concatenateNumberStrings = numberString + secondNumberString;
+        // this will concatenate strings
+        System.out.println("Concatenation produces " + concatenateNumberStrings);
+
+        int myInt = 10;
+        String lastString = numberString + myInt;
+        // this will cast myInt to string and concatenate it to numberString
+        System.out.println("lastString is " + lastString);
     }
 }
