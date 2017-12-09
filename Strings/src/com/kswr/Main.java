@@ -13,6 +13,8 @@ public class Main {
         // char (2)
         // boolean (machine dependent)
 
+        // String is not a primitive data type, it's a class
+
         String myString = "This is a string";
         System.out.println(myString);
         myString = myString + ", and this is more.";
@@ -29,6 +31,9 @@ public class Main {
         int myInt = 10;
         String lastString = numberString + myInt;
         // this will cast myInt to string and concatenate it to numberString
-        System.out.println("lastString is " + lastString);
+        System.out.println("Integer concatenated with double is " + lastString);
+        double myDouble = 20.20d;
+        lastString = numberString + myDouble;
+        System.out.println("String concatenated with double is " + lastString);
     }
 }
