@@ -62,7 +62,7 @@ public class Main {
                 break;
         }
 
-        // use .toLowerCase() when working with strings
+        // use .toLowerCase() when working with Strings
 
         String month = "June";
 
