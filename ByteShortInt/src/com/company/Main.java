@@ -6,7 +6,7 @@ public class Main {
         //System.out.println("Ipsum");
 
         //Integer
-        // has a width of 32
+        // has a width of 32 (4 bytes)
         int myValue = 1000;
         int myMin = -2_147_483_648;
         System.out.println(myValue);
@@ -20,7 +20,7 @@ public class Main {
         System.out.println("myTotal = " + myTotal);
 
         //Byte
-        // has a width of 8
+        // has a width of 8 (1 byte)
         byte myByte = 10;
         // range -128 to 127
         // max 2^8-1, min -2^8
@@ -28,14 +28,14 @@ public class Main {
         System.out.println("myNewByte = " + myNewByte);
 
         //Short
-        // has a width of 16
+        // has a width of 16 (2 bytes)
         short myShort = 30000;
         // range -32_768 to 32_767
         // max 2^32-1, min -2^63
         short myNewShortValue = (short) (myShort/2);
 
         //Long
-        // has a width of 64
+        // has a width of 64 (8 bytes)
         long myLongValue = 100L;
         // max 2^63-1, min -2^63
 
@@ -50,6 +50,6 @@ public class Main {
         int newInt = 13;
         long newLong = 50000 + 10 * (newByte + newShort + newInt); // no need to casting due to fact that long variable will accept integer values
         System.out.println("newLong = " + newLong);
-        
+
     }
 }
