@@ -4,7 +4,6 @@
     <list default="true" id="a44255ec-8544-42cb-a52a-8ad36c0d790f" name="Default" comment="lecture 32 finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/ForLoop/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/ForLoop/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -179,7 +178,7 @@
       <updated>1513545152088</updated>
       <workItem from="1513545155109" duration="2060000" />
       <workItem from="1515104214649" duration="5152000" />
-      <workItem from="1515772972538" duration="3152000" />
+      <workItem from="1515772972538" duration="3180000" />
     </task>
     <task id="LOCAL-00001" summary="lecture 32 started">
       <created>1513545248909</created>
@@ -195,11 +194,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515776104677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lecture 32 finished">
+      <created>1515777683244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515777683244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10364000" />
+    <option name="totallyTimeSpent" value="10392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="22" width="1630" height="1028" extended-state="6" />
@@ -213,7 +219,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -244,7 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lecture 32 started" />
     <MESSAGE value="lecture 32 in the middle of doing" />
-    <option name="LAST_COMMIT_MESSAGE" value="lecture 32 in the middle of doing" />
+    <MESSAGE value="lecture 32 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 32 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
