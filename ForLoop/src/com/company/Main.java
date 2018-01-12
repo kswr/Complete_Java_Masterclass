@@ -43,9 +43,19 @@ public class Main {
 
         System.out.println("Found primes: " + countPrimes(4,10));
 
-        System.out.println("\nChallenge part 3. second solution");
+        System.out.println("\nChallenge part 3. second solution\n");
 
-//        for (int i = 10; int y = 50; i++)
+        int count = 0;
+        for (int i = 10; i <= 50; i++) {
+            if (isPrime(i)) {
+                System.out.println(i + " is a prime number");
+                count++;
+            }
+            if (count == 3) {
+                break;
+            }
+
+        }
     }
 
     // method for printing fictional coefficient of investment interest
