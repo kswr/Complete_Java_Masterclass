@@ -8,4 +8,6 @@ public class Sedan extends Car{
         this.type = "Sedan";
     }
 
+
+
 }

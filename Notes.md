@@ -12,4 +12,5 @@
   - constant
   - literal
   - repository
-- Arrays <<< learn
+
+## Notes to elaborate (visualize) on paper
