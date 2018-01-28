@@ -15,6 +15,16 @@ public class Main {
         Sedan a8 = new Sedan("blue", 270, 5, "Audi", "A8", "gas");
 
         a8.move();
+        a8.speedUp(50);
+        a8.gearUp();
+        a8.speedUp(60);
+        a8.gearUp();
+        a8.speedUp(100);
+        a8.gearUp();
+        a8.speedUp(100);
+        a8.slowDown(200);
+        a8.move();
+        a8.slowDown(50);
 
     }
 }

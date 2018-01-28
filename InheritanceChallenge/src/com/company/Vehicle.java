@@ -13,22 +13,22 @@ public class Vehicle {
         this.currentSpeed = 0;
     }
 
-    private void move() {
+    public void move() {
         System.out.println("Vehicle.move() called");
         System.out.println("Vehicle moves at speed " + this.currentSpeed);
     }
 
-    private void turnLeft() {
+    public void turnLeft() {
         System.out.println("Vehicle.turnLeft() called");
         System.out.println("Vehicle turns left");
     }
 
-    private void turnRight() {
+    public void turnRight() {
         System.out.println("Vehicle.turnRight() called");
         System.out.println("Vehicle turns left");
     }
 
-    private void speedUp(int speed) {
+    public void speedUp(int speed) {
         if (this.currentSpeed + speed <= maxSpeed) {
             this.currentSpeed += speed;
             System.out.println("Vehicle sped up " + speed);
@@ -38,7 +38,7 @@ public class Vehicle {
         System.out.println("Vehicle now moves at " + this.currentSpeed);
     }
 
-    private void slowDown(int speed) {
+    public void slowDown(int speed) {
         if (this.currentSpeed - speed > 0) {
             this.currentSpeed -= speed;
             System.out.println("Vehicle slow down " + speed);
