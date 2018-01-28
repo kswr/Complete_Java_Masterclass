@@ -26,5 +26,7 @@ public class Main {
         a8.move();
         a8.slowDown(50);
 
+        Outlander newOutlander = new Outlander(36);
+        newOutlander.move();
     }
 }
