@@ -1,15 +1,13 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
-        Car porshe = new Car(); // created object based on the template car
+        Car porsche = new Car();
         Car holden = new Car();
-
-        // before setting field value
-        System.out.println("Model is " + porshe.getModel());
-        porshe.setModel("Carrera");
-        // after setting field value
-        System.out.println("Model is " + porshe.getModel());
+        // returns null
+        System.out.println("Model is " + porsche.getModel());
+        porsche.setModel("911");
+        // returns Carrera
+        System.out.println("Model is " + porsche.getModel());
     }
 }
