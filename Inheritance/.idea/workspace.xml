@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541a7b03-bee2-421f-86b6-a5561031b7be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Constructors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Constructors/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Constructors/src/com/company/Account.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/com/company/Animal.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/com/company/Animal.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/com/company/Dog.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/com/company/Dog.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/com/company/Fish.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Animal.java" afterPath="$PROJECT_DIR$/src/com/company/Animal.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dog.java" afterPath="$PROJECT_DIR$/src/com/company/Dog.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Fish.java" afterPath="$PROJECT_DIR$/src/com/company/Fish.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/InheritanceChallenge.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/out/production/InheritanceChallenge/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/out/production/InheritanceChallenge/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/out/production/InheritanceChallenge/com/company/Outlander.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/out/production/InheritanceChallenge/com/company/Sedan.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/out/production/InheritanceChallenge/com/company/Vehicle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/company/Outlander.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/company/Sedan.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/company/Vehicle.java" afterPath="" />
-    </list>
+    <list default="true" id="541a7b03-bee2-421f-86b6-a5561031b7be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -51,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -233,12 +204,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523533064984</updated>
-      <workItem from="1523533067040" duration="2964000" />
+      <workItem from="1523533067040" duration="3012000" />
     </task>
+    <task id="LOCAL-00001" summary="finished intheritance part 2">
+      <created>1523540824984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523540824985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2964000" />
+    <option name="totallyTimeSpent" value="3012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="22" width="840" height="980" extended-state="0" />
@@ -252,7 +231,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -279,6 +258,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished intheritance part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished intheritance part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -319,18 +302,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
