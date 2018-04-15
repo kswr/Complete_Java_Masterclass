@@ -1,12 +1,12 @@
 package com.company;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle{
     private int doors;
-    private int engineCapacity;
+    private int engingeCapacity;
 
-    public Car(String name, int doors, int engineCapacity) {
+    public Car(String name, int doors, int engingeCapacity) {
         super(name);
         this.doors = doors;
-        this.engineCapacity = engineCapacity;
+        this.engingeCapacity = engingeCapacity;
     }
 }
