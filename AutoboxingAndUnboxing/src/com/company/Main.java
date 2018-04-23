@@ -47,5 +47,14 @@ public class Main {
 
 //       integerArrayList.add(5); - this line is also being modified at compile time
 
+        ArrayList<Double> doubleArrayList = new ArrayList<>();
+
+        for (double dbl = 0.0d; dbl <= 10.0d; dbl += 0.5d){
+            doubleArrayList.add(dbl);
+        }
+
+        for (int i = 0; i < doubleArrayList.size(); i++){
+            System.out.println(i + "-->" + doubleArrayList.get(i));
+        }
     }
 }
