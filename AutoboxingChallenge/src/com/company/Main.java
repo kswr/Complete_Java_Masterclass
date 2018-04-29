@@ -24,5 +24,19 @@ public class Main {
         // Add data validation.
         // e.g. check if exists, or does not exist, etc.
         // Think about where you are adding the code to perform certain actions
+
+        Bank bank1 = new Bank("Bank of India");
+        bank1.addNewBranch("Warsaw 1");
+        Branch berlin1 = new Branch("Berlin 1");
+        bank1.addNewBranch(berlin1);
+        bank1.addNewCustomer("Warsaw 1", "Stefan Kowalski", 200d);
+//        bank1.getBranches().get(0).listCustomers();
+        bank1.listCustomersOfBranch("Warsaw 1", true);
+        System.out.println(" --- List branches no args ---");
+        bank1.listBranches();
+        System.out.println(" --- List branches 1 arg ---");
+        bank1.listBranches(true);
+        System.out.println(" --- List branches 2 args ---");
+        bank1.listBranches(true, true);
     }
 }
