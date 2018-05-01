@@ -33,16 +33,16 @@ public class Main {
 
 
 
-//        Player player1 = new Player("John Duke" , 100, 50);
-//        System.out.println(player1);
-//        saveObject(player1);
-//
-//        player1.setHitPoints(8);
-//        System.out.println(player1);
-//        player1.setWeapon("Stormbringer");
-//        saveObject(player1);
-//        loadObject(player1);
-//        System.out.println(player1);
+        Player player1 = new Player("John Duke" , 100, 50);
+        System.out.println(player1);
+        saveObject(player1);
+
+        player1.setHitPoints(8);
+        System.out.println(player1);
+        player1.setWeapon("Stormbringer");
+        saveObject(player1);
+        loadObject(player1);
+        System.out.println(player1);
 
         ISaveable monster1 = new Monster("Drook", 9999, 9999);
         System.out.println(monster1);
