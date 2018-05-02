@@ -1,4 +1,4 @@
-package com.timbuchalka;
+package com.company;
 
 /**
  * Created by dev on 18/09/15.
