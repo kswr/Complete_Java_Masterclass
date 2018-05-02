@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by dev on 18/09/15.
@@ -9,24 +10,49 @@ import java.util.LinkedList;
 public class Album {
     private String name;
     private String artist;
-    private ArrayList<Song> songs;
+    private SongList songList;
+
+    private class SongList {
+        private List<Song> songs = new ArrayList<>();
+
+        public SongList() {
+        }
+
+        public void addSong(Song song) {
+            this.songs.add(song);
+        }
+
+        public int findSong(String title) {
+            int tempId = -1;
+            for (Song song : this.songs) {
+                if(title == song.getTitle()) {
+                    tempId = songs.indexOf(song);
+                }
+            }
+            return tempId;
+        }
+
+        public int findSong(Song songToFind) {
+            return findSong(songToFind.getTitle());
+        }
+    }
 
     public Album(String name, String artist) {
         this.name = name;
         this.artist = artist;
-        this.songs = new ArrayList<Song>();
+        this.songList = new SongList();
     }
 
     public boolean addSong(String title, double duration) {
         if(findSong(title) == null) {
-            this.songs.add(new Song(title, duration));
+            this.songList.addSong(new Song(title, duration));
             return true;
         }
         return false;
     }
 
     private Song findSong(String title) {
-        for(Song checkedSong: this.songs) {
+        for(Song checkedSong: this.songList.songs) {
             if(checkedSong.getTitle().equals(title)) {
                 return checkedSong;
             }
@@ -36,8 +62,8 @@ public class Album {
 
     public boolean addToPlayList(int trackNumber, LinkedList<Song> playList) {
         int index = trackNumber -1;
-        if((index >0) && (index <= this.songs.size())) {
-            playList.add(this.songs.get(index));
+        if((index >0) && (index <= this.songList.songs.size())) {
+            playList.add(this.songList.songs.get(index));
             return true;
         }
         System.out.println("This album does not have a track " + trackNumber);
