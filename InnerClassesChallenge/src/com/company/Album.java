@@ -25,7 +25,7 @@ public class Album {
         public int findSong(String title) {
             int tempId = -1;
             for (Song song : this.songs) {
-                if(title == song.getTitle()) {
+                if(song.getTitle().equals(title)) {
                     tempId = songs.indexOf(song);
                 }
             }
