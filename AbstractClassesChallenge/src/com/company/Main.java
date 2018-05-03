@@ -64,13 +64,7 @@ public class Main {
         String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
         String[] data = stringData.split(" ");
-//        for (String s : data) {
-//            // create new item with value set to the string s
-//        }
-        List<String> stringArrayList = new ArrayList<>();
-        Collections.addAll(stringArrayList, stringData);
-//        for (String s: data){
-//            System.out.println(s);
+            // create new item with value set to the string s
 //        }
 
     }
