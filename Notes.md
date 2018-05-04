@@ -30,3 +30,4 @@
 - if we call run() instead of start(), code will run on the same thread as it was called on (usually main thread)
 - we can interrupt thread (in case of sleeping or performing some action) using interrupt() method; to terminate thread after interruption use return in try{}catch{} block
 - join(optional: timeout) will make thread wait for another thread to terminate or timedout befor continuing
+- thread interferance or race condition occurs when two or more threads modify state of a single object
