@@ -24,3 +24,9 @@
   - we can create new threads by:
     - instantiating classes that extend Thread class and running it's start() method (which starts code placed in overwritten run() method)
       - the same instance can't be started more than once
+    - instantiating anonymous classes that extend Thread class
+    - instantiating classes implementing runnable interface
+    - overloading run in anonymous instance of class implementing runnable interface
+- if we call run() instead of start(), code will run on the same thread as it was called on (usually main thread)
+- we can interrupt thread (in case of sleeping or performing some action) using interrupt() method; to terminate thread after interruption use return in try{}catch{} block
+- join(optional: timeout) will make thread wait for another thread to terminate or timedout befor continuing
