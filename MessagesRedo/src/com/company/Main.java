@@ -14,7 +14,7 @@ public class Main {
 
 class Message {
     private String message;
-    private boolean empty;
+    private boolean empty = true;
 
     public synchronized String read() {
         while (empty) {
@@ -38,7 +38,7 @@ class Message {
             }
         }
         empty = false;
-        message = message;
+        this.message = message;
         notifyAll();
     }
 }
