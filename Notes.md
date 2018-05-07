@@ -31,3 +31,6 @@
 - we can interrupt thread (in case of sleeping or performing some action) using interrupt() method; to terminate thread after interruption use return in try{}catch{} block
 - join(optional: timeout) will make thread wait for another thread to terminate or timedout befor continuing
 - thread interferance or race condition occurs when two or more threads modify state of a single object
+- synchronisation - process of controling when thread can access the process heap and therefore make changes to the objects stored in the heap
+  - we can synchronise an entire method (which is not recommended due to performance impact)
+  - 
