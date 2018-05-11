@@ -3,6 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static com.company.Main.EOF;
@@ -79,21 +80,31 @@ class MyConsumer implements Runnable{
 
     @Override
     public void run() {
+        int counter = 0;
         while (true) {
-            bufferLock.lock();
             try {
-                if(buffer.isEmpty()) {
-                    // unlocks for other threads after each check
-                    continue;
-                }
-                if(buffer.get(0).equals(EOF)) {
-                    System.out.println(color + "Exiting");
-                    break;
+                if (bufferLock.tryLock(100, TimeUnit.MICROSECONDS)){
+                    try {
+                        if(buffer.isEmpty()) {
+                            // unlocks for other threads after each check
+                            continue;
+                        }
+                        System.out.println(color + "The counter is: " + counter);
+                        counter = 0;
+                        if(buffer.get(0).equals(EOF)) {
+                            System.out.println(color + "Exiting");
+                            break;
+                        } else {
+                            System.out.println(color + "Removed " + buffer.remove(0));
+                        }
+                    } finally {
+                        bufferLock.unlock();
+                    }
                 } else {
-                    System.out.println(color + "Removed " + buffer.remove(0));
+                    counter++;
                 }
-            } finally {
-                bufferLock.unlock();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
     }
