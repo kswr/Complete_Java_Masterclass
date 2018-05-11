@@ -3,7 +3,6 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static com.company.Main.EOF;
@@ -15,6 +14,7 @@ public class Main {
         List<String> buffer = new ArrayList<>();
         ReentrantLock bufferLock = new ReentrantLock();
         // ArrayList is unsynchronised
+
         MyProducer producer1 = new MyProducer(buffer, ThreadColor.ANSI_GREEN, bufferLock);
         MyConsumer consumer1 = new MyConsumer(buffer, ThreadColor.ANSI_PURPLE, bufferLock);
         MyConsumer consumer2 = new MyConsumer(buffer, ThreadColor.ANSI_CYAN, bufferLock);
@@ -82,8 +82,7 @@ class MyConsumer implements Runnable{
     public void run() {
         int counter = 0;
         while (true) {
-            try {
-                if (bufferLock.tryLock(100, TimeUnit.MICROSECONDS)){
+                if (bufferLock.tryLock()){
                     try {
                         if(buffer.isEmpty()) {
                             // unlocks for other threads after each check
@@ -103,9 +102,6 @@ class MyConsumer implements Runnable{
                 } else {
                     counter++;
                 }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
         }
     }
 }
