@@ -2,7 +2,6 @@ package com.company;
 
 import java.util.List;
 import java.util.Random;
-import java.util.zip.Adler32;
 
 public class Main {
 
@@ -38,5 +37,26 @@ class MyProducer implements Runnable {
         }
         System.out.println(color + "Adding EOF and exiting...");
         buffer.add("EOF");
+    }
+}
+
+class MyConsumer implements Runnable{
+    private List<String> buffer;
+    private String color;
+
+    public MyConsumer(List<String> buffer, String color) {
+        this.buffer = buffer;
+        this.color = color;
+    }
+
+    @Override
+    public void run() {
+        while (true) {
+            if(buffer.isEmpty()) {
+                continue;
+            } else {
+                
+            }
+        }
     }
 }
