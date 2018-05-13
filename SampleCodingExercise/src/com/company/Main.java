@@ -18,4 +18,7 @@ public class Main {
             System.out.println("Number " + number + " is lesser than 0");
         }
     }
+    public static void printMegaBytesAndKiloBytes(int kiloBytes) {
+        System.out.println();
+    }
 }
