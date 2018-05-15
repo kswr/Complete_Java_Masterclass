@@ -18,18 +18,18 @@ public class Main {
 //       Note: Type all code in main method
 
 
-        int[] thousand = IntStream.rangeClosed(1,1000).toArray();
+//        int[] thousand = IntStream.rangeClosed(1,1000).toArray();
 
         int tempInt = 0;
         int counter = 0;
-        for(int element : thousand) {
-            if (element % 3 == 0 && element % 5 == 0) {
-                tempInt += element;
-                System.out.println(element);
+        for(int i = 1; i < 1000; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                tempInt += i;
+                System.out.println(i);
                 counter++;
-                if (counter == 5) {
-                    break;
-                }
+            }
+            if (counter == 5) {
+                break;
             }
         }
         System.out.println(tempInt);
