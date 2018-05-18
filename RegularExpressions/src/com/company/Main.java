@@ -96,12 +96,43 @@ public class Main {
         htmlText.append("<p>Here is the summary</p>");
 
         // create regex string
-        String h2Pattern = ".*<h2>.*";
+        String h2Pattern = "<h2>";
         // compile pattern
         Pattern pattern = Pattern.compile(h2Pattern);
         // create matcher
         Matcher matcher = pattern.matcher(htmlText);
         // print out if matches or not
         System.out.println(matcher.matches());
+
+        matcher.reset();
+        int count = 0;
+        while (matcher.find()) {
+            count++;
+            System.out.println("Occurence " + count + " : " + matcher.start() + " to " + matcher.end());
+        }
+
+        // greedy vs lazy quantifier
+        // only remove or put back "?"
+        String h2GroupPattern = "(<h2>.*?</h2>)";
+        Pattern groupPattern = Pattern.compile(h2GroupPattern);
+        Matcher groupMatcher = groupPattern.matcher(htmlText);
+        System.out.println(groupMatcher.matches());
+        groupMatcher.reset();
+
+        while (groupMatcher.find()) {
+            System.out.println("Occurence " + groupMatcher.group(1));
+        }
+
+        String h2TextGroups = "(<h2>(.+?)</h2>)";
+        Pattern h2TextPattern = Pattern.compile(h2TextGroups);
+        Matcher h2TextMatcher = h2TextPattern.matcher(htmlText);
+
+        while (h2TextMatcher.find()) {
+            System.out.println("Occurence: " + h2TextMatcher.group(2));
+        }
+
+        System.out.println("harry".replaceAll("[H|h]arry", "Larry"));
+        System.out.println("Harry".replaceAll("[H|h]arry", "Larry"));
+
     }
 }
