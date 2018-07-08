@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eba9e7e-24cb-43b2-b109-34f836fddb13" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/ChallengeTestDrive00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/FootballLeague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/FootballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/FootballTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/GenericsChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/League.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/SoccerLeague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/SoccerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/SoccerTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge/src/Team.java" afterDir="false" />
-    </list>
+    <list default="true" id="6eba9e7e-24cb-43b2-b109-34f836fddb13" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -130,8 +117,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="77" />
     <option name="y" value="115" />
     <option name="width" value="1042" />
     <option name="height" value="613" />
@@ -268,7 +255,7 @@
     <option name="totallyTimeSpent" value="6308000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="115" width="1042" height="613" extended-state="1" />
+    <frame x="77" y="115" width="1042" height="613" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
