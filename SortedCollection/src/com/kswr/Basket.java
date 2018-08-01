@@ -2,6 +2,7 @@ package com.kswr;
 
 import java.util.*;
 
+
 public class Basket {
     private final String name;
     private final Map<StockItem, Integer> list;
@@ -28,14 +29,20 @@ public class Basket {
         return Collections.unmodifiableMap(list);
     }
 
+    public void sellItems() {
+        for (Map.Entry<StockItem, Integer> item : list.entrySet()) {
+            list.entrySet().remove(item);
+        }
+    }
+
     @Override
     public String toString() {
         String s = "\nShopping basket " + name + " contains " + list.size() + (list.size() == 1 ? " item" : " items") + " \n";
         double totalCost = 0.0;
         for (Map.Entry<StockItem, Integer> item : list.entrySet()) {
-            s = s + item.getKey() + ", " + item.getValue() + " purchased\n";
-            totalCost += item.getKey().getPrice() + item.getValue();
+            s = s + item.getKey() + ", " + item.getValue() + " reserved\n";
+            totalCost += item.getKey().getPrice() * item.getValue();
         }
-        return  s + "Total cost " + totalCost;
+        return  s + "Total cost " + String.format("%.2f",totalCost);
     }
 }
